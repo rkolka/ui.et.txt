@@ -6,3 +6,4 @@ Ingliskeelne [juhend tõlkijale](http://www.manifold.net/doc/mfd9/localization.h
 ## Tõlkimise abivahendid
  * [Microsofti terminitõlked](https://www.microsoft.com/en-us/language/Search?&searchTerm=transform&langID=273&Source=true&productid=0)
  * [Keeleveeb](https://www.keeleveeb.ee/)
+ * [Geoinformaatika õpik](https://geoinformaatika.ut.ee/)
