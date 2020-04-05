@@ -1,5 +1,5 @@
 # Eestikeelne tõlge Manifold Release 9 kasutajaliidesele
-*Manifold Release 9 UI translation for Estonian*
+*Manifold Release 9 UI translation for Estonian language*
 
 Ingliskeelne [juhend tõlkijale](http://www.manifold.net/doc/mfd9/localization.htm)
 
