@@ -12,11 +12,19 @@ Ingliskeelne [juhend tõlkijale](http://www.manifold.net/doc/mfd9/localization.h
 Tasuta vaaturi **Manifold Viewer** saad alla laadida [siit](http://manifold.net/updates/download_viewer.shtml "**Manifold Viewer**"). 
 Kopeeri ui.et.txt fail samma kausta, kus manifold.exe ja kui sul pole just eesikeelne Windows, siis muuda Tools-Options all kasutajaliidese keel 'et'-ks. Kui sul on eestikeelne Windows, siis peaks vaikimisi loetamagi ui.et.txt fail. 
 
-### ui.en_alt.txt
-Kohandatud ingliskeelne versioon, kus *Menu Access Keys* on tehtud iga menüü/dialoogi piires unikaalseks, et kasutamine oleks mugavam.
+## Failid
 
-### ui.et_mak.txt
-Eestikeelne versioon, kus *Menu Access Keys* on täpselt samad nagu **en_alt** versioonis. (Soovitatud)
+#### default.ui.txt
+Ametlik ingliskeelne variant.
 
-### ui.et_mak2.txt
-Eestikeelne versioon, kus *Menu Access Keys* on täpselt samad nagu **en_alt** versioonis, aga alati eraldi sulgudes. (Pole soovitatud)
+#### ui.et.txt
+Eestikeelne tõlge ilma *Menu Access Key*-deta.
+
+#### ui.en_alt.txt
+Kohandatud ingliskeelne versioon, kus *Menu Access Key*-d on tehtud iga menüü/dialoogi piires unikaalseks, et kasutamine oleks mugavam.
+
+#### ui.et_mak.txt
+Eestikeelne versioon, kus *Menu Access Key*-d on täpselt samad nagu **en_alt** versioonis. (Soovitatud)
+
+#### ui.et_mak2.txt
+Eestikeelne versioon, kus *Menu Access Key*-d on täpselt samad nagu **en_alt** versioonis, aga alati eraldi sulgudes. (Pole soovitatud)
