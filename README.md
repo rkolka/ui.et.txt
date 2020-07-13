@@ -16,15 +16,20 @@ Kopeeri ui.et.txt fail samma kausta, kus manifold.exe ja kui sul pole just eesik
 
 #### default.ui.txt
 Ametlik ingliskeelne variant.
+![default](/images/default.png)
 
 #### ui.et.txt
 Eestikeelne tõlge ilma *Menu Access Key*-deta.
+![et](/images/et.png)
 
 #### ui.en_alt.txt
 Kohandatud ingliskeelne versioon, kus *Menu Access Key*-d on tehtud iga menüü/dialoogi piires unikaalseks, et kasutamine oleks mugavam.
+![default](/images/en_alt.png)
 
-#### ui.et_mak.txt
+#### ui.et_alt.txt
 Eestikeelne versioon, kus *Menu Access Key*-d on täpselt samad nagu **en_alt** versioonis. (Soovitatud)
+![default](/images/et_alt.png)
 
-#### ui.et_mak2.txt
+#### ui.et_alt2.txt
 Eestikeelne versioon, kus *Menu Access Key*-d on täpselt samad nagu **en_alt** versioonis, aga alati eraldi sulgudes. (Pole soovitatud)
+![default](/images/et_alt2.png)
