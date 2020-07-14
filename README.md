@@ -19,15 +19,15 @@ Ametlik ingliskeelne variant.
 
 ![default](/images/default.png)
 
-#### ui.et.txt
-Eestikeelne tõlge ilma *Menu Access Key*-deta.
-
-![et](/images/et.png)
-
 #### ui.en_alt.txt
 Kohandatud ingliskeelne versioon, kus *Menu Access Key*-d on tehtud iga menüü/dialoogi piires unikaalseks, et kasutamine oleks mugavam.
 
 ![en_alt](/images/en_alt.png)
+
+#### ui.et.txt
+Eestikeelne tõlge ilma *Menu Access Key*-deta.
+
+![et](/images/et.png)
 
 #### ui.et_alt.txt
 Eestikeelne versioon, kus *Menu Access Key*-d on täpselt samad nagu **en_alt** versioonis. (Soovitatud)
