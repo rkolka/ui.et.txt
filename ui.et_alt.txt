@@ -1,4 +1,4 @@
-﻿
+﻿# <text>
 BuilderCollate=Sortimisreeglid
 BuilderCollateNoAccent=noaccent
 BuilderCollateNoCase=nocase
@@ -673,7 +673,7 @@ BuilderFunctionY1=Y1(<arv>) : <arv>
 BuilderFunctionYn=Yn(<järk>, <arv>) : <arv>
 BuilderOperator=Tehted
 BuilderOperatorAdd=<arv> + <arv>
-BuilderOperatorAddString=<sõne>&  <sõne>
+BuilderOperatorAddString=<sõne> & <sõne>
 BuilderOperatorAnd=<tõeväärtus> AND <tõeväärtus>
 BuilderOperatorBetween=<väärtus> BETWEEN <väärtus> AND <väärtus>
 BuilderOperatorBitAnd=<väärtus> BITAND <väärtus>
@@ -867,8 +867,6 @@ BuilderTypeUuid=UUID
 BuilderTypeX2=Vektortüübid (x2)
 BuilderTypeX3=Vektortüübid (x3)
 BuilderTypeX4=Vektortüübid (x4)
-
-# <name>|<description>
 CommandEdit=R&edigeeri|Edit commands.
 CommandEditAdvanced=Täpsem (&V)|Advanced edit commands.
 CommandEditCollateFavorites=Lemmikute muutmine... (&F)|Edit list of favorite collations.
@@ -1206,9 +1204,9 @@ CommandViewProperties=Atr&ibuudid...|View and edit component properties.
 CommandViewRecord=&Info|Show Info pane.
 CommandViewRecordCoordAdd=Lis&a keskele|Add coordinate in middle of segment.
 CommandViewRecordCoordAddSpline=Lis&a splaini käänupunkt|Add spline coordinate.
-CommandViewRecordCoordBranchBegin=Alusta uut haru (&B)|Begin new branch.
+CommandViewRecordCoordBranchBegin=Alusta uut haru (&W)|Begin new branch.
 CommandViewRecordCoordBranchContinue=Jätka haru (&C)|Continue branch from coordinate.
-CommandViewRecordCoordBranchContinueLast=Jätka viimase haruga (&C)|Continue last branch.
+CommandViewRecordCoordBranchContinueLast=Jätka viimase haruga (&L)|Continue last branch.
 CommandViewRecordCoordBranchDelete=Kustuta haru (&D)|Delete branch.
 CommandViewRecordCoordBranchEnd=Lõp&eta see haru|End current branch.
 CommandViewRecordCoordBranchReverse=Pöö&ra haru suund ringi|Reverse branch direction.
@@ -1216,8 +1214,8 @@ CommandViewRecordCoordCurveCircle=Teisenda ringikaareks (&C)|Convert segment to 
 CommandViewRecordCoordCurveEllipse=T&eisenda ellipsikaareks|Convert segment to ellipse arc.
 CommandViewRecordCoordCurveLine=Teisenda jooneks (&L)|Convert segment to straight line.
 CommandViewRecordCoordCurveSpline=Tei&senda splainiks|Convert segment to spline.
-CommandViewRecordCoordDelete=Kustuta käänupunkt (&D)|Delete coordinate.
-CommandViewRecordCoordDeleteLast=Kustuta viimane käänupunkt (&D)|Delete last coordinate.
+CommandViewRecordCoordDelete=Kustuta käänupunkt (&X)|Delete coordinate.
+CommandViewRecordCoordDeleteLast=Kustuta viimane käänupunkt (&X)|Delete last coordinate.
 CommandViewRecordCoordDeleteMulti=Kustuta (&D)|Delete selected coordinates.
 CommandViewRecordCoordLoad=&Laadi...|Load coordinates from file.
 CommandViewRecordCoordModePlain=Näita käänupunkte (&C)|Show coordinates.
@@ -1262,7 +1260,7 @@ CommandViewSnapBearingRelative=Snäpi suhtelisele asimuudile (&R)|Snap to bearin
 CommandViewSnapCoords=Snäpi käänupunktidele (&C)|Snap to coordinates.
 CommandViewSnapEdit=&Snäpi seadistamine...|Edit snap parameters.
 CommandViewSnapGrid=Snäpi ruutvõr&gule|Snap to grid.
-CommandViewSnapToggle=&Snäpi|Toggle snap on or off.
+CommandViewSnapToggle=S&näpi|Toggle snap on or off.
 CommandViewStatusPosition=Koordinaadid (&P)|Show or hide position.
 CommandViewStatusPositionLatLon=&Laiuskraad / pikkuskraad
 CommandViewStatusPositionLatLonMin=Laiuskraa&d / pikkuskraad (kraad-min)
@@ -1779,8 +1777,8 @@ DialogViewSelectCtlTabPersistent=Salvestatud valikud
 DialogViewSelectCtlTabTemplate=Mallid
 DialogViewSelectCtlThreads=Luba rööptöötlus
 DialogViewSnap=Snäppimise seaded
-DialogViewSnapCtlBearingDiv=Asimuudi jaotisi:
-DialogViewSnapCtlGrid=Ruutvõrgu samm:
+DialogViewSnapCtlBearingDiv=Asimuudi jaotisi (&B):
+DialogViewSnapCtlGrid=Ruutvõr&gu samm:
 DialogViewStyle=Stiilid
 DialogViewStyleCtlBreaks=Vahemikke:
 DialogViewStyleCtlEditStyle=Muuda stiili
@@ -1820,6 +1818,8 @@ DialogViewTraverseOptsCtlDirUnitGradian=Gradians (gons)
 DialogViewTraverseOptsCtlDirUnitRadian=Radians
 DialogWindowWindows=Aknad
 DialogWindowWindowsCtlSwitch=Aktiveeri aken
+
+# <error>
 ErrorCanceled=Toiming katkestati.
 ErrorCollateInvalid=Sobimatu sorteerimisalus.
 ErrorCollateSelect=Sorteerimisalus valimata.
@@ -2054,6 +2054,8 @@ ErrorWorkerCantCreateShutdown=Töölõime loomine nurjus, sulgumine.
 ErrorWorkerFuncInvalid=Sobimatu töölõime funktsioon.
 ErrorWorkerGeneric=Toiming nurjus.
 ErrorWorkerInvalid=Sobimatu töölõim.
+
+# <key>
 KeyAdd=Plus
 KeyBackspace=Back
 KeyDelete=Delete
@@ -2076,9 +2078,13 @@ KeySubtract=Minus
 KeyTab=Tab
 KeyTilde=ü
 KeyUp=Up
+
+# <key modifier>
 KeyModifierAlt=Alt+
 KeyModifierControl=Ctrl+
 KeyModifierShift=Shift+
+
+# <name>
 NameFolderSystemData=!Süsteemiandmed
 NameFolderSystemDataCache=!Süsteemiandmed\Puhver
 NameNewComment=Märkmed
@@ -2104,6 +2110,8 @@ NameNewMap=Kaart
 NameNewQuery=Päring
 NameNewScript=Skript
 NameNewTable=Tabel
+
+# <progress>
 ProgressCopyingData=Andmete kopeerimine
 ProgressDeletingData=Andmete kustutamine
 ProgressNodeF1=Sõlm {0}
@@ -2127,6 +2135,8 @@ ProgressScanningData=Andmete skannimine
 ProgressSortingData=Andmete sortimine
 ProgressUncompressingData=Andmete lahti pakkimine
 ProgressWritingData=Andmete kirjutamine
+
+# <progress caption>
 ProgressCaptionConnectingData=Andmelättega ühendumine
 ProgressCaptionCopyingData=Andmete kopeerimine
 ProgressCaptionDeletingData=Andmete kustutamine
@@ -2151,6 +2161,8 @@ ProgressCaptionSortingData=Andmete sortimine
 ProgressCaptionTransformingData=Andmete teisendamine
 ProgressCaptionUpdatingData=Andmete uuendamine
 ProgressCaptionWritingData=Andmete kirjutamine
+
+# <question>
 QuestionActionCancel=Katkesta toiming?
 QuestionApplicationExit=Välju rakendusest?
 QuestionDataSave=Salvesta muudatused?
@@ -2161,6 +2173,8 @@ QuestionRecordDeleteSelected=Kustuta valitud kirjed?
 QuestionRecordDeleteSelectedLayout=Kustuta valitud raamid?
 QuestionSchemaItemDeleteDependent=Kustuta kitsendused, väljad ja indeksid, mis sõltuvad valitud väljadest?
 QuestionScriptInterrupt=Katkesta skript?
+
+# <report>
 ReportAddinScanF1=Lisandmooduleid leitud: {0}
 ReportCacheRebuild=Puhver on rikkis, korrastan.
 ReportCacheRebuildOutdated=Puhver on vananenud, uuendan.
@@ -2210,6 +2224,8 @@ ReportTransformF2=Teisendamine ({1}): {0}
 ReportUiStringsF2={0} / {1} sõne(t)
 ReportWorkersF1={0} taustategum(it)
 ReportWriteF1=Kirjutamine: {0}
+
+# <template>|<parameter>|...
 TemplateAbs=Absoluutväärtus|Arv:
 TemplateAcos=Arkuskoosinus|Väärtus:
 TemplateAcosh=Hüperboolne arkuskoosinus|Arv:
@@ -2607,6 +2623,8 @@ TemplateXor=Loogiline Välistav või (Xor)|Tõeväärtus:|Tõeväärtus:
 TemplateY0=Besseli Y0|Arv:
 TemplateY1=Besseli Y1|Arv:
 TemplateYn=Besseli Yn|Järk:|Arv:
+
+# <value>
 ValueActionBlank=(toiming puudub)
 ValueBaseNone=tühi
 ValueBaseSolid=täis
@@ -2858,6 +2876,8 @@ ValueWeekDaySunday=Pühapäev
 ValueWeekDayThursday=Neljapäev
 ValueWeekDayTuesday=Teisipäev
 ValueWeekDayWednesday=Kolmapäev
+
+# <name>
 WindowCommand=Käsuaken
 WindowCommandLog=Käsulogi
 WindowCommandQueryBuilder=Päringuabiline
