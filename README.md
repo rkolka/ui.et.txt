@@ -6,7 +6,9 @@ Ingliskeelne [juhend tõlkijale](http://www.manifold.net/doc/mfd9/localization.h
 ## Tõlkimise abivahendid
  * [Microsofti terminitõlked](https://www.microsoft.com/en-us/language/Search?&searchTerm=transform&langID=273&Source=true&productid=0)
  * [Keeleveeb](http://www.keeleveeb.ee/)
+ * [Sõnaveeb](https://sonaveeb.ee/)
  * [Geoinformaatika õpik](https://geoinformaatika.ut.ee/)
+ 
 
 ## Proovi tasuta vaaturiga
 Tasuta vaaturi **Manifold Viewer** saad alla laadida [siit](http://manifold.net/updates/download_viewer.shtml "**Manifold Viewer**"). 
