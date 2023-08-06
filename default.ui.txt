@@ -1389,6 +1389,7 @@ CommandViewRecordJoin=&Setup...|Specify source component and criteria for relate
 CommandViewRecordJoinRefresh=&Refresh|Refresh related records.
 CommandViewRecordMoveNext=Move to &Next|Move to next record.
 CommandViewRecordMovePrevious=Move to &Previous|Move to previous record.
+CommandViewRecordPing=&Ping|Ping current record.
 CommandViewRecordSelection=&Selected|Move only to selected records.
 CommandViewRecordValueCancel=&Undo Changes|Undo changes to value.
 CommandViewRecordValueCopy=&Copy|Copy value to the clipboard.
