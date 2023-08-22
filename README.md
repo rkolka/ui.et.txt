@@ -4,7 +4,7 @@
 Ingliskeelne [juhend tõlkijale](http://www.manifold.net/doc/mfd9/localization.htm)
 
 ## Tõlkimise abivahendid
- * [Microsofti terminitõlked](https://www.microsoft.com/en-us/language/Search?&searchTerm=transform&langID=273&Source=true&productid=0)
+ * [Microsofti terminitõlked]([https://www.microsoft.com/en-us/language/Search?&searchTerm=transform&langID=273&Source=true&productid=0](https://msit.powerbi.com/view?r=eyJrIjoiODJmYjU4Y2YtM2M0ZC00YzYxLWE1YTktNzFjYmYxNTAxNjQ0IiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9))
  * [Keeleveeb](http://www.keeleveeb.ee/)
  * [Sõnaveeb](https://sonaveeb.ee/)
  * [Geoinformaatika õpik](https://geoinformaatika.ut.ee/)
